@@ -1,3 +1,5 @@
+import CustomTable from "@/app/components/back-office/CustomTable";
+import DashboardsCharts from "@/app/components/back-office/DashboardsCharts";
 import Heading from "@/app/components/back-office/Heading";
 import LargeCards from "@/app/components/back-office/LargeCards";
 import SmallCards from "@/app/components/back-office/smallCards";
@@ -9,6 +11,8 @@ export default function page() {
       <Heading title="Dashboard Overview" />
       <LargeCards />
       <SmallCards />
+      <DashboardsCharts />
+      <CustomTable />
     </div>
   );
 }
