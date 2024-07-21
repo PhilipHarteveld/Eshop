@@ -1,10 +1,17 @@
-import Navbar from "../components/frontend/Navbar";
+import React from "react";
 
-export default function Home() {
+import Navbar from "../components/frontend/Navbar";
+import Home from "./Components/home";
+import Categories from "./Components/categories";
+import TrendingProducts from "./Components/trendingProducts";
+
+export default function Page() {
   return (
     <div>
       <Navbar />
-      <h2>Welcome to shop</h2>
+      <Home />
+      <Categories />
+      <TrendingProducts />
     </div>
   );
 }
